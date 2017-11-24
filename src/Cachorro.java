@@ -2,10 +2,11 @@ import java.util.Random;
 
 
 /*TODO
-caminhos de referencias conforme a imagem do moodle - ok
-criar dois cachorros de cada cor
-limitar o numero de moedas em 20 por cachorro e no máximo 50 somando caçador + cachorro
-
+OK - Caminhos de referencias conforme a imagem do moodle
+Criar dois cachorros de cada cor
+Limitar o numero de moedas em 20 por cachorro e no máximo 50 somando caçador + cachorro
+Alterar a thread (após mostrar interrupt---) que adiciona moedas nos potes. Do modo que tá
+ela sempre adiciona moedas logo após alguém acessar o pote com 0 moedas
 
 */
 class Cachorro implements Runnable {
